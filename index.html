@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adham Ahmed Abbas | AI Automation Engineer & Computer Science Specialist</title>
+  <meta name="description" content="Portfolio of Adham Ahmed Abbas - AI Automation Engineer and Computer Science Specialist in Cairo, Egypt. Specializing in scalable autonomous workflows, LLM systems, and algorithmic engineering.">
+  <meta name="keywords" content="Adham Ahmed Abbas, AI Automation Engineer, Computer Science, DEPI, Autonomous Workflows, LLM, Python, Algorithms, Cairo Egypt">
+  <meta name="author" content="Adham Ahmed Abbas">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Adham Ahmed Abbas | AI Automation Engineer">
+  <meta property="og:description" content="Engineering Scalable AI Systems & Autonomous Workflows. Bridging software engineering, algorithms, and intelligent automation.">
+  <meta property="og:url" content="https://adhamabass.ai">
+
+  <!-- Google Fonts: Space Grotesk, JetBrains Mono, Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Ambient Atmospheric Lighting & Cyber Grid -->
+  <div class="cyber-grid-bg" aria-hidden="true"></div>
+  <div class="spotlight-layer" id="cursorSpotlight" aria-hidden="true"></div>
+  <div class="glow-orb glow-top-left" aria-hidden="true"></div>
+  <div class="glow-orb glow-bottom-right" aria-hidden="true"></div>
+  <div class="bg-noise-overlay" aria-hidden="true"></div>
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="navbar-container" id="navbar">
+    <nav class="navbar glass-panel" aria-label="Main Navigation">
+      <!-- Brand Logo -->
+      <a href="#home" class="brand-logo" aria-label="Adham Ahmed Abbas Homepage">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-name">Adham</span>
+        <span class="logo-dot">.ai</span>
+        <span class="logo-bracket">/&gt;</span>
+        <span class="logo-cursor"></span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <ul class="nav-menu" role="menubar">
+        <li role="none"><a href="#home" class="nav-link active" role="menuitem">Home</a></li>
+        <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+        <li role="none"><a href="#experience" class="nav-link" role="menuitem">Experience</a></li>
+        <li role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+        <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+        <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+      </ul>
+
+      <!-- Right Nav Actions -->
+      <div class="nav-actions">
+        <!-- Social Icons -->
+        <a href="https://github.com/adhamabass2020-oss" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+            <path d="M9 18c-4.51 2-5-2-7-2"/>
+          </svg>  
+        </a>
+        <a href="https://www.linkedin.com/in/adham-ahmed-abbas-ai" target="_blank" rel="noopener noreferrer" class="nav-social-icon" title="LinkedIn Profile" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect width="4" height="12" x="2" y="9"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+        </a>
+
+        <!-- Glowing Neon CTA -->
+        <a href="#contact" class="btn-neon-glow" id="navCtaBtn">
+          <span>Let's Connect</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <ul class="mobile-nav-list">
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <div class="mobile-drawer-cta">
+        <a href="#contact" class="btn-neon-glow full-width">Let's Connect</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main class="page-container">
+
+    <!-- ==================== 1. HERO SECTION ==================== -->
+    <section id="home" class="hero-section">
+      <div class="hero-grid">
+        <!-- Hero Left Column: Narrative & Conversion -->
+        <div class="hero-content">
+          <!-- Availability Badge -->
+          <div class="availability-pill" role="status">
+            <span class="pulse-indicator">
+              <span class="pulse-wave"></span>
+              <span class="pulse-dot"></span>
+            </span>
+            <span class="availability-text">Available for AI & Automation Projects</span>
+          </div>
+
+          <!-- Headline & Title -->
+          <h1 class="hero-headline">
+            Engineering Scalable <br>
+            <span class="gradient-cyber-text">AI Systems</span> &amp; <br>
+            <span class="gradient-emerald-text">Autonomous Workflows</span>
+          </h1>
+
+          <!-- Identity Subtitle -->
+          <div class="hero-identity-tag">
+            <span class="identity-name">Adham Ahmed Abbas</span>
+            <span class="separator-dot">•</span>
+            <span class="identity-role">AI Automation Engineer &amp; CS Specialist</span>
+            <span class="separator-dot">•</span>
+            <span class="location-chip">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              Cairo, Egypt
+            </span>
+          </div>
+
+          <!-- Core Value Proposition -->
+          <p class="hero-subheadline">
+            Bridging software development, algorithms, and intelligent workflow automation to optimize business processes with modern AI.
+          </p>
+
+          <!-- Primary & Secondary CTAs -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn-cyber-primary">
+              <span>View Projects</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m9 18 6-6-6-6"/>
+              </svg>
+            </a>
+            <button id="btnResumeModal" class="btn-cyber-secondary" type="button">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+              <span>Download Resume</span>
+            </button>
+          </div>
+
+          <!-- Social Quick Links Bar -->
+          <div class="hero-social-strip">
+            <span class="social-strip-label">Direct Connect:</span>
+            <div class="social-pills-row">
+              <a href="mailto:adhamabass2020@gmail.com" class="social-icon-chip" title="Email: adhamabass2020@gmail.com" aria-label="Send email">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="16" x="2" y="4" rx="2"/>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                </svg>
+                <span>Email</span>
+              </a>
+              <a href="tel:+201149746364" class="social-icon-chip" title="Call/WhatsApp: +20 1149746364" aria-label="Phone contact">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+                <span>+20 1149746364</span>
+              </a>
+              <a href="https://github.com/adhamabass2020-oss" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                  <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+                <span>GitHub</span>
+              </a>
+              <a href="https://www.linkedin.com/in/adham-ahmed-abbas-ai" target="_blank" rel="noopener noreferrer" class="social-icon-chip" title="LinkedIn Profile">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                  <rect width="4" height="12" x="2" y="9"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Interactive Cyber Terminal & Floating Stats -->
+        <div class="hero-visual-wrapper">
+          <!-- Floating Status Badge 1: Accuracy & Execution -->
+          <div class="floating-badge badge-top-right glass-card">
+            <div class="badge-icon-wrap emerald">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </div>
+            <div>
+              <div class="floating-badge-value">99.8% Precision</div>
+              <div class="floating-badge-label">Autonomous Workflows</div>
+            </div>
+          </div>
+
+          <!-- Floating Status Badge 2: DEPI Trainee -->
+          <div class="floating-badge badge-bottom-left glass-card">
+            <div class="badge-icon-wrap cyan">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+              </svg>
+            </div>
+            <div>
+              <div class="floating-badge-value">DEPI Round 5</div>
+              <div class="floating-badge-label">AI Automation Trainee</div>
+            </div>
+          </div>
+
+          <!-- Interactive Codespot Terminal Simulator -->
+          <div class="cyber-terminal glass-card" id="interactiveTerminal">
+            <!-- Terminal Header / Titlebar -->
+            <div class="terminal-titlebar">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="terminal-title">adham@ai-sys: ~/portfolio-v2</div>
+              <div class="terminal-badge">LIVE BASH</div>
+            </div>
+
+            <!-- Terminal Tabs -->
+            <div class="terminal-tabs">
+              <button class="terminal-tab active" data-tab="bash">
+                <span class="tab-icon">⚡</span> terminal.sh
+              </button>
+              <button class="terminal-tab" data-tab="sysinfo">
+                <span class="tab-icon">🐍</span> sys_info.py
+              </button>
+            </div>
+
+            <!-- Terminal Screen Body -->
+            <div class="terminal-body" id="terminalOutput">
+              <div class="terminal-line welcome-line">
+                <span class="syntax-keyword">[SYSTEM_READY]</span> AI Automation Environment initialized.
+              </div>
+              <div class="terminal-line">
+                <span class="syntax-comment"># Type a command below or click a quick-action chip:</span>
+              </div>
+              <div class="terminal-line">
+                <span class="syntax-prompt">adham@ai-sys:~$</span> <span class="syntax-cmd">whoami</span>
+              </div>
+              <div class="terminal-line output-text">
+                &gt; Adham Ahmed Abbas | AI Automation Engineer &amp; CS Specialist (GPA 3.1)
+              </div>
+              <div class="terminal-line">
+                <span class="syntax-prompt">adham@ai-sys:~$</span> <span class="syntax-cmd">status --track</span>
+              </div>
+              <div class="terminal-line output-text">
+                &gt; Enrolled in DEPI Round 5 (AMIT Learning) • Building Autonomous Multi-Agent Pipelines
+              </div>
+            </div>
+
+            <!-- Interactive CLI Input Form -->
+            <form class="terminal-input-bar" id="terminalForm" onsubmit="return false;">
+              <span class="syntax-prompt">adham@ai-sys:~$</span>
+              <input type="text" id="terminalInput" class="terminal-cli-input" placeholder="type 'help', 'skills', 'projects', 'contact'..." autocomplete="off" spellcheck="false">
+              <button type="submit" class="terminal-run-btn" title="Run command" aria-label="Run command">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
+              </button>
+            </form>
+
+            <!-- Quick Command Chips -->
+            <div class="terminal-quick-chips">
+              <span class="quick-chip-label">Quick Run:</span>
+              <button class="chip-btn" data-cmd="help">help</button>
+              <button class="chip-btn" data-cmd="skills">skills</button>
+              <button class="chip-btn" data-cmd="projects">projects</button>
+              <button class="chip-btn" data-cmd="contact">contact</button>
+              <button class="chip-btn" data-cmd="clear">clear</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 2. ABOUT & EDUCATION ==================== -->
+    <section id="about" class="section-container">
+      <div class="section-header">
+        <div class="section-tag-pill">
+          <span class="neon-dot"></span>
+          <span>Background &amp; Academia</span>
+        </div>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-description">
+          Bridging foundational computer science rigor with real-world artificial intelligence and intelligent workflow engineering.
+        </p>
+      </div>
+
+      <div class="about-bento-grid">
+        <!-- Bento Card 1: Core Narrative & Philosophy -->
+        <div class="glass-card bento-card bento-span-2">
+          <div class="card-icon-header">
+            <div class="cyber-icon-box emerald">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+              </svg>
+            </div>
+            <span class="card-kicker">Core Philosophy</span>
+          </div>
+          <h3 class="bento-heading">Architecting Autonomous Systems from First Principles</h3>
+          <p class="bento-text">
+            I specialize in transforming intricate operational bottlenecks into self-orchestrating AI automation workflows. With deep grounding in algorithmic efficiency, graph theory, and modern large language models, my work focuses on building reliable, repeatable, and scalable autonomous pipelines.
+          </p>
+          <div class="about-highlights-list">
+            <div class="highlight-item">
+              <span class="check-icon">✓</span>
+              <span><strong>End-to-End Orchestration:</strong> Designing multi-step event triggers, API integrations, and validation loops.</span>
+            </div>
+            <div class="highlight-item">
+              <span class="check-icon">✓</span>
+              <span><strong>Algorithmic Precision:</strong> Optimizing state-space exploration, search heuristics, and complex data structures.</span>
+            </div>
+            <div class="highlight-item">
+              <span class="check-icon">✓</span>
+              <span><strong>Generative AI &amp; LLMs:</strong> Prompt engineering, structured JSON outputs, agents, and contextual memory systems.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bento Card 2: Education Card (Beni-Suef University) -->
+        <div class="glass-card bento-card">
+          <div class="card-icon-header">
+            <div class="cyber-icon-box cyan">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </div>
+            <span class="card-kicker">Higher Education</span>
+          </div>
+          <h3 class="bento-heading">Bachelor of Computers and AI</h3>
+          <div class="edu-institution">Beni-Suef University</div>
+          <div class="edu-status-pill">
+            <span class="edu-date">September 2024 – Present</span>
+            <span class="gpa-tag">GPA: 3.1</span>
+          </div>
+          <p class="bento-text-sm">
+            Rigorous academic curriculum emphasizing advanced data structures, discrete mathematics, algorithmic complexity, systems architecture, and intelligent computational models.
+          </p>
+          <div class="academic-focus-pills">
+            <span class="focus-pill">Algorithms</span>
+            <span class="focus-pill">Data Structures</span>
+            <span class="focus-pill">OOP</span>
+            <span class="focus-pill">Machine Learning</span>
+          </div>
+        </div>
+
+        <!-- Bento Card 3: Spoken Languages & Communication -->
+        <div class="glass-card bento-card">
+          <div class="card-icon-header">
+            <div class="cyber-icon-box emerald">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="2" y1="12" x2="22" y2="12"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+            </div>
+            <span class="card-kicker">Communication</span>
+          </div>
+          <h3 class="bento-heading">Languages</h3>
+          <div class="lang-bars-wrap">
+            <div class="lang-row">
+              <div class="lang-meta">
+                <span class="lang-title">Arabic</span>
+                <span class="lang-level-badge">Native Proficiency</span>
+              </div>
+              <div class="lang-progress-bar"><div class="progress-fill fill-100"></div></div>
+            </div>
+            <div class="lang-row">
+              <div class="lang-meta">
+                <span class="lang-title">English</span>
+                <span class="lang-level-badge">Conversational &amp; Technical</span>
+              </div>
+              <div class="lang-progress-bar"><div class="progress-fill fill-85"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bento Card 4: Location & Availability Stats -->
+        <div class="glass-card bento-card bento-span-2">
+          <div class="card-icon-header">
+            <div class="cyber-icon-box cyan">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+              </svg>
+            </div>
+            <span class="card-kicker">Execution Framework</span>
+          </div>
+          <h3 class="bento-heading">Engineering Mindset &amp; Workflow Architecture</h3>
+          <p class="bento-text">
+            Operating at the intersection of production software engineering and modern artificial intelligence. Every automated pipeline is treated with software engineering best practices: version control, test validation, edge-case handling, and monitoring.
+          </p>
+          <div class="mindset-stats-row">
+            <div class="stat-cell">
+              <span class="stat-number">Cairo, EG</span>
+              <span class="stat-desc">Primary Base (GMT+3)</span>
+            </div>
+            <div class="stat-cell">
+              <span class="stat-number">Remote / Hybrid</span>
+              <span class="stat-desc">Global Collaboration</span>
+            </div>
+            <div class="stat-cell">
+              <span class="stat-number">Production First</span>
+              <span class="stat-desc">Modular &amp; Scalable Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. EXPERIENCE ==================== -->
+    <section id="experience" class="section-container">
+      <div class="section-header">
+        <div class="section-tag-pill">
+          <span class="neon-dot"></span>
+          <span>Applied Engineering</span>
+        </div>
+        <h2 class="section-title">Experience &amp; Programs</h2>
+        <p class="section-subtitle">
+          Intensive training, real-world workflow engineering, and autonomous pipeline deployment.
+        </p>
+      </div>
+
+      <div class="timeline-container">
+        <!-- Vertical glowing timeline line -->
+        <div class="timeline-glow-track" aria-hidden="true"></div>
+
+        <!-- Experience Item: DEPI Round 5 -->
+        <div class="timeline-item">
+          <!-- Glowing Node Marker -->
+          <div class="timeline-node-marker">
+            <span class="node-pulse"></span>
+            <span class="node-core"></span>
+          </div>
+
+          <!-- Glass Card Content -->
+          <div class="glass-card experience-card">
+            <div class="exp-card-header">
+              <div class="exp-role-info">
+                <div class="role-badge-row">
+                  <span class="status-active-tag">Current Program</span>
+                  <span class="role-location">Cairo, Egypt</span>
+                </div>
+                <h3 class="exp-role-title">AI Automation Engineer Trainee</h3>
+                <div class="exp-company-group">
+                  <span class="company-name">Digital Egypt Pioneers Initiative (DEPI) – Round 5</span>
+                  <span class="provider-pill">Powered by AMIT Learning</span>
+                </div>
+              </div>
+              <div class="exp-date-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="18" height="18" x="3" y="4" rx="2" ry="2"/>
+                  <line x1="16" y1="2" x2="16" y2="6"/>
+                  <line x1="8" y1="2" x2="8" y2="6"/>
+                  <line x1="3" y1="10" x2="21" y2="10"/>
+                </svg>
+                <span>July 2026 – Present</span>
+              </div>
+            </div>
+
+            <div class="exp-description">
+              <p>
+                Selected into Egypt's prestigious national initiative for high-potential technology specialists, undertaking intensive engineering within the dedicated <strong>AI Automation &amp; Intelligent Workflow</strong> track.
+              </p>
+              <ul class="exp-bullet-list">
+                <li>
+                  <span class="bullet-arrow">▹</span>
+                  <span><strong>End-to-End Autonomous Workflows:</strong> Designing and deploying multi-stage automated pipelines that bridge enterprise software, webhook dispatchers, databases, and third-party APIs.</span>
+                </li>
+                <li>
+                  <span class="bullet-arrow">▹</span>
+                  <span><strong>LLM &amp; Generative AI Integration:</strong> Orchestrating state-of-the-art language models with structured prompt engineering, output parsing, schema validation, and context management.</span>
+                </li>
+                <li>
+                  <span class="bullet-arrow">▹</span>
+                  <span><strong>Operations &amp; Optimization:</strong> Analyzing existing business workflows to eliminate repetitive manual bottlenecks, drastically reducing execution latency and error rates.</span>
+                </li>
+                <li>
+                  <span class="bullet-arrow">▹</span>
+                  <span><strong>Architecture &amp; Tooling:</strong> Hands-on experience with modern automation builders (n8n), Python scripting, RESTful API integration, and asynchronous job queues.</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Tech Stack Badges for DEPI -->
+            <div class="exp-tech-tags">
+              <span class="tech-tag">Workflow Automation</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Prompt Engineering</span>
+              <span class="tech-tag">LLM Orchestration</span>
+              <span class="tech-tag">n8n</span>
+              <span class="tech-tag">REST APIs</span>
+              <span class="tech-tag">JSON / Webhooks</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. SKILLS & TECH STACK ==================== -->
+    <section id="skills" class="section-container">
+      <div class="section-header">
+        <div class="section-tag-pill">
+          <span class="neon-dot"></span>
+          <span>Technical Arsenal</span>
+        </div>
+        <h2 class="section-title">Skills &amp; Tech Stack</h2>
+        <p class="section-subtitle">
+          A high-impact toolkit spanning autonomous automation, foundational algorithms, and systems engineering.
+        </p>
+      </div>
+
+      <!-- Skill Category Filter Tabs -->
+      <div class="skills-filter-nav">
+        <button class="filter-tab active" data-filter="all">All Skills</button>
+        <button class="filter-tab" data-filter="ai-automation">AI &amp; Automation</button>
+        <button class="filter-tab" data-filter="software-dev">Software &amp; Dev</button>
+        <button class="filter-tab" data-filter="data-tools">Data &amp; Tools</button>
+      </div>
+
+      <!-- Skills Cards Grid -->
+      <div class="skills-grid" id="skillsGrid">
+
+        <!-- Card 1: AI & Automation -->
+        <div class="glass-card skill-category-card" data-category="ai-automation">
+          <div class="skill-category-header">
+            <div class="cyber-icon-box emerald">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 8V4H8"/>
+                <rect width="16" height="12" x="4" y="8" rx="2"/>
+                <path d="M2 14h2"/>
+                <path d="M20 14h2"/>
+                <path d="M15 13v2"/>
+                <path d="M9 13v2"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="skill-category-title">AI &amp; Automation</h3>
+              <span class="skill-category-subtitle">Autonomous Systems &amp; LLMs</span>
+            </div>
+          </div>
+          <p class="skill-category-summary">
+            Specialized in designing resilient automation architectures that integrate reasoning engines and automated triggers into cohesive systems.
+          </p>
+          <div class="skill-badges-cluster">
+            <div class="tech-badge featured">
+              <span class="badge-dot"></span>
+              <span>Workflow Automation</span>
+            </div>
+            <div class="tech-badge featured">
+              <span class="badge-dot"></span>
+              <span>Prompt Engineering</span>
+            </div>
+            <div class="tech-badge">
+              <span class="badge-dot"></span>
+              <span>Foundations of ML &amp; DL</span>
+            </div>
+            <div class="tech-badge featured">
+              <span class="badge-dot"></span>
+              <span>Generative AI Integration</span>
+            </div>
+            <div class="tech-badge">
+              <span class="badge-dot"></span>
+              <span>n8n Orchestration</span>
+            </div>
+            <div class="tech-badge">
+              <span class="badge-dot"></span>
+              <span>Autonomous Agents</span>
+            </div>
+            <div class="tech-badge">
+              <span class="badge-dot"></span>
+              <span>LLM APIs &amp; Embeddings</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Software & Development -->
+        <div class="glass-card skill-category-card" data-category="software-dev">
+          <div class="skill-category-header">
+            <div class="cyber-icon-box cyan">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="skill-category-title">Software &amp; Development</h3>
+              <span class="skill-category-subtitle">Core Computer Science &amp; Logic</span>
+            </div>
+          </div>
+          <p class="skill-category-summary">
+            Strong procedural and object-oriented foundations built on clean architecture, algorithmic optimization, and computational rigor.
+          </p>
+          <div class="skill-badges-cluster">
+            <div class="tech-badge featured">
+              <span class="badge-dot"></span>
+              <span>Python (Advanced)</span>
+            </div>
+            <div class="tech-badge featured">
+              <span class="badge-dot"></span>
+              <span>C++</span>
+            </div>
+            <div class="tech-badge">
+              <span class="badge-dot"></span>
+              <span>Object-Oriented Programming (OOP)</span>
+            </div>
+            <div class="tech-badge featured">
+              <span class="badge-dot"></span>
+              <span>Algorithm Design</span>
+            </div>
+            <div class="tech-badge">
+              <span class="badge-dot"></span>
+              <span>Data Structures</span>
+            </div>
+            <div class="tech-badge">
+              <span class="badge-dot"></span>
+              <span>Computational Complexity (Big O)</span>
+            </div>
+            <div class="tech-badge">
+              <span class="badge-dot"></span>
+              <span>Graph Search Heuristics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Data & Tools -->
+        <div class="glass-card skill-category-card" data-category="data-tools">
+          <div class="skill-category-header">
+            <div class="cyber-icon-box emerald">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+                <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="skill-category-title">Data &amp; Tools</h3>
+              <span class="skill-category-subtitle">Storage, Pipelines &amp; Visualization</span>
+            </div>
+          </div>
+          <p class="skill-category-summary">
+            Proficient in schema design, relational querying, data transformations, and data visualization simulations.
+          </p>
+          <div class="skill-badges-cluster">
+            <div class="tech-badge featured">
+              <span class="badge-dot"></span>
+              <span>Database Management</span>
+            </div>
+            <div class="tech-badge featured">
+              <span class="badge-dot"></span>
+              <span>SQL Queries &amp; Schemas</span>
+            </div>
+            <div class="tech-badge featured">
+              <span class="badge-dot"></span>
+              <span>Automation Build Tools</span>
+            </div>
+            <div class="tech-badge">
+              <span class="badge-dot"></span>
+              <span>NumPy &amp; Pandas</span>
+            </div>
+            <div class="tech-badge">
+              <span class="badge-dot"></span>
+              <span>Matplotlib Animation</span>
+            </div>
+            <div class="tech-badge">
+              <span class="badge-dot"></span>
+              <span>Git &amp; GitHub Version Control</span>
+            </div>
+            <div class="tech-badge">
+              <span class="badge-dot"></span>
+              <span>REST APIs &amp; JSON</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 5. FEATURED PROJECTS ==================== -->
+    <section id="projects" class="section-container">
+      <div class="section-header">
+        <div class="section-tag-pill">
+          <span class="neon-dot"></span>
+          <span>Applied Engineering</span>
+        </div>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">
+          Production code, algorithmic benchmarks, and intelligent automation systems.
+        </p>
+      </div>
+
+      <div class="projects-wrapper">
+
+        <!-- Case Study 1: Maze Solver & Algorithmic Pathfinding Suite -->
+        <div class="glass-card project-showcase-card">
+          <!-- Left Column: Case Study Narrative -->
+          <div class="project-info-side">
+            <div class="project-badge-bar">
+              <span class="badge-cyber-flag">Interactive Live Demo</span>
+              <span class="badge-type-pill">Algorithmic Suite</span>
+            </div>
+
+            <h3 class="project-headline">Maze Solver &amp; Algorithmic Pathfinding Suite</h3>
+
+            <p class="project-narrative-text">
+              A modular Python-based pathfinding benchmark and visual simulation tool. Features real-time step-by-step exploration comparisons versus optimal reconstructed paths using <code>matplotlib.animation</code> and interactive grid algorithms.
+            </p>
+
+            <!-- Technical Key Points -->
+            <div class="project-spec-points">
+              <div class="spec-point">
+                <span class="spec-bullet">▸</span>
+                <span><strong>Dual Visualization:</strong> Explores state-space frontiers (open set / closed set) dynamically and traces shortest path with zero backtracking.</span>
+              </div>
+              <div class="spec-point">
+                <span class="spec-bullet">▸</span>
+                <span><strong>Multi-Algorithm Engine:</strong> Benchmarks A* Search (Manhattan/Euclidean heuristics), Breadth-First Search (BFS), and Dijkstra's algorithm.</span>
+              </div>
+              <div class="spec-point">
+                <span class="spec-bullet">▸</span>
+                <span><strong>Modular Architecture:</strong> Decoupled grid representation, maze generator (recursive division/DFS), and rendering loop.</span>
+              </div>
+            </div>
+
+            <!-- Tech Stack Badges -->
+            <div class="project-tech-badges">
+              <span class="p-tech-pill">Python</span>
+              <span class="p-tech-pill">Algorithms</span>
+              <span class="p-tech-pill">Matplotlib</span>
+              <span class="p-tech-pill">Data Structures</span>
+              <span class="p-tech-pill">A* Search</span>
+              <span class="p-tech-pill">Graph Theory</span>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="project-action-row">
+              <a href="https://github.com/adhamabass2020-oss/AI-Maze-Solver" target="_blank" rel="noopener noreferrer" class="btn-cyber-primary" style="padding: 0.65rem 1.25rem;">
+                <span>View Source Code</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
+              <button class="btn-cyber-secondary" id="btnFocusSimulator" type="button" style="padding: 0.65rem 1.25rem;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="5 3 19 12 5 21 5 3"/>
+                </svg>
+                <span>Run Interactive Demo</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Real-time Canvas Simulator -->
+          <div class="project-simulator-side">
+            <div class="simulator-wrapper glass-card">
+              <!-- Simulator Top Bar -->
+              <div class="sim-header-bar">
+                <div class="sim-status">
+                  <span class="status-pip" id="simStatusPip"></span>
+                  <span class="sim-status-label" id="simStatusLabel">Ready to Solve</span>
+                </div>
+                <!-- Algorithm selector -->
+                <div class="sim-algo-select-wrapper">
+                  <label for="simAlgoSelect" class="sr-only">Select Algorithm</label>
+                  <select id="simAlgoSelect" class="sim-algo-select">
+                    <option value="astar">A* Search (Optimal &amp; Fast)</option>
+                    <option value="bfs">BFS (Guaranteed Shortest)</option>
+                    <option value="dijkstra">Dijkstra (Uniform Cost)</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Interactive Canvas -->
+              <div class="sim-canvas-box">
+                <canvas id="mazeCanvas" width="480" height="320" aria-label="Interactive Maze Pathfinding Visualization Canvas"></canvas>
+                <!-- Legend Overlay -->
+                <div class="sim-legend-strip">
+                  <div class="legend-item"><span class="legend-color color-start"></span> Start</div>
+                  <div class="legend-item"><span class="legend-color color-goal"></span> Goal</div>
+                  <div class="legend-item"><span class="legend-color color-visited"></span> Explored</div>
+                  <div class="legend-item"><span class="legend-color color-path"></span> Optimal Path</div>
+                </div>
+              </div>
+
+              <!-- Live Telemetry Counters -->
+              <div class="sim-telemetry-row">
+                <div class="sim-stat-box">
+                  <span class="sim-stat-title">Nodes Explored</span>
+                  <span class="sim-stat-num" id="statExplored">0</span>
+                </div>
+                <div class="sim-stat-box">
+                  <span class="sim-stat-title">Path Length</span>
+                  <span class="sim-stat-num" id="statPath">0 steps</span>
+                </div>
+                <div class="sim-stat-box">
+                  <span class="sim-stat-title">Execution Time</span>
+                  <span class="sim-stat-num" id="statTime">0 ms</span>
+                </div>
+              </div>
+
+              <!-- Control Buttons -->
+              <div class="sim-controls-grid">
+                <button id="btnMazeSolve" class="btn-sim-action primary">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="5 3 19 12 5 21 5 3"/>
+                  </svg>
+                  <span>Solve Maze</span>
+                </button>
+                <button id="btnMazeGenerate" class="btn-sim-action">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="23 4 23 10 17 10"/>
+                    <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/>
+                  </svg>
+                  <span>New Maze</span>
+                </button>
+                <button id="btnMazeReset" class="btn-sim-action">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+                    <path d="M3 3v5h5"/>
+                  </svg>
+                  <span>Reset</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Upcoming Projects / Pipeline Slots (With "Coming Soon" Badges) -->
+        <div class="upcoming-projects-grid">
+          <!-- Upcoming Slot 1: Autonomous Multi-Agent Workflow Engine -->
+          <div class="glass-card upcoming-card">
+            <div class="upcoming-header">
+              <div class="badge-coming-soon">
+                <span class="coming-soon-dot"></span>
+                <span>Coming Soon</span>
+              </div>
+              <span class="pipeline-track">AI Automation Pipeline</span>
+            </div>
+            <h4 class="upcoming-title">Autonomous Multi-Agent Workflow Engine</h4>
+            <p class="upcoming-desc">
+              An event-driven orchestration system allowing specialized LLM agents to communicate, delegate subtasks, validate JSON schemas, and trigger external webhooks autonomously.
+            </p>
+            <div class="upcoming-badges">
+              <span class="p-tech-pill">Python</span>
+              <span class="p-tech-pill">LangChain / LangGraph</span>
+              <span class="p-tech-pill">FastAPI</span>
+              <span class="p-tech-pill">n8n</span>
+            </div>
+            <div class="upcoming-footer">
+              <span class="upcoming-status-text">In Active Development • DEPI Capstone</span>
+            </div>
+          </div>
+
+          <!-- Upcoming Slot 2: Enterprise RAG Document Intelligence System -->
+          <div class="glass-card upcoming-card">
+            <div class="upcoming-header">
+              <div class="badge-coming-soon">
+                <span class="coming-soon-dot"></span>
+                <span>Coming Soon</span>
+              </div>
+              <span class="pipeline-track">Enterprise AI &amp; Data</span>
+            </div>
+            <h4 class="upcoming-title">Enterprise RAG Document Intelligence Pipeline</h4>
+            <p class="upcoming-desc">
+              High-throughput document ingestion pipeline utilizing vector embeddings, hybrid semantic-keyword search, and automated structured data extraction from complex enterprise reports.
+            </p>
+            <div class="upcoming-badges">
+              <span class="p-tech-pill">Vector DB</span>
+              <span class="p-tech-pill">SQL</span>
+              <span class="p-tech-pill">OpenAI / Claude API</span>
+              <span class="p-tech-pill">Docker</span>
+            </div>
+            <div class="upcoming-footer">
+              <span class="upcoming-status-text">Architecture Planned • Testing Embeddings</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 6. CONTACT & FOOTER SECTION ==================== -->
+    <section id="contact" class="section-container">
+      <div class="section-header">
+        <div class="section-tag-pill">
+          <span class="neon-dot"></span>
+          <span>Initiate Communication</span>
+        </div>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">
+          Interested in building autonomous AI workflows, algorithmic engineering, or discussing technical collaborations? Drop a message below.
+        </p>
+      </div>
+
+      <div class="contact-split-grid">
+        <!-- Left Column: Direct Info & Quick Copy Chips -->
+        <div class="contact-info-col">
+          <div class="glass-card contact-summary-card">
+            <h3 class="contact-card-heading">Contact Information</h3>
+            <p class="contact-card-text">
+              Feel free to reach out directly via email, phone call, or WhatsApp. I usually respond within a few hours.
+            </p>
+
+            <!-- Direct Contact Chips -->
+            <div class="direct-contact-stack">
+              <!-- Email Chip -->
+              <div class="contact-chip-item glass-card">
+                <div class="chip-icon-box emerald">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="16" x="2" y="4" rx="2"/>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                  </svg>
+                </div>
+                <div class="chip-details">
+                  <span class="chip-label">Direct Email</span>
+                  <a href="mailto:adhamabass2020@gmail.com" class="chip-value">adhamabass2020@gmail.com</a>
+                </div>
+                <button class="btn-copy-chip" data-copy-text="adhamabass2020@gmail.com" title="Copy email address" aria-label="Copy email">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="14" height="14" x="8" y="8" rx="2" ry="2"/>
+                    <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>
+                  </svg>
+                  <span>Copy</span>
+                </button>
+              </div>
+
+              <!-- Phone Chip -->
+              <div class="contact-chip-item glass-card">
+                <div class="chip-icon-box cyan">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </div>
+                <div class="chip-details">
+                  <span class="chip-label">Phone &amp; WhatsApp</span>
+                  <a href="tel:+201149746364" class="chip-value">+20 1149746364</a>
+                </div>
+                <button class="btn-copy-chip" data-copy-text="+201149746364" title="Copy phone number" aria-label="Copy phone">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="14" height="14" x="8" y="8" rx="2" ry="2"/>
+                    <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>
+                  </svg>
+                  <span>Copy</span>
+                </button>
+              </div>
+
+              <!-- Location Chip -->
+              <div class="contact-chip-item glass-card">
+                <div class="chip-icon-box emerald">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </div>
+                <div class="chip-details">
+                  <span class="chip-label">Location</span>
+                  <span class="chip-value">Cairo, Egypt (Available Globally)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links Grid -->
+            <div class="contact-social-row">
+              <a href="https://github.com/adhamabass2020-oss" target="_blank" rel="noopener noreferrer">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                  <path d="M9 18c-4.51 2-5-2-7-2"/>
+                </svg>
+                <span>GitHub</span>
+              </a>
+              <a href="https://www.linkedin.com/in/adham-ahmed-abbas-ai" target="_blank" rel="noopener noreferrer" class="social-contact-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                  <rect width="4" height="12" x="2" y="9"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Interactive Contact Form -->
+        <div class="contact-form-col">
+          <form class="glass-card contact-form" id="contactForm" novalidate>
+            <div class="form-header">
+              <h3 class="form-title">Send a Direct Message</h3>
+              <p class="form-subtitle">Fill out the fields below to initiate a discussion.</p>
+            </div>
+
+            <!-- Name Input -->
+            <div class="form-group">
+              <label for="contactName" class="form-label">Full Name <span class="required-star">*</span></label>
+              <input type="text" id="contactName" name="name" class="cyber-input" placeholder="e.g., Alex Reed" required>
+              <span class="field-error-msg" id="nameError">Please enter your name.</span>
+            </div>
+
+            <!-- Email Input -->
+            <div class="form-group">
+              <label for="contactEmail" class="form-label">Email Address <span class="required-star">*</span></label>
+              <input type="email" id="contactEmail" name="email" class="cyber-input" placeholder="e.g., alex@company.com" required>
+              <span class="field-error-msg" id="emailError">Please enter a valid email address.</span>
+            </div>
+
+            <!-- Project / Subject Type -->
+            <div class="form-group">
+              <label for="contactSubject" class="form-label">Inquiry Focus</label>
+              <select id="contactSubject" name="subject" class="cyber-input">
+                <option value="AI Automation Workflow">AI Automation &amp; Intelligent Workflows</option>
+                <option value="LLM & Generative AI">LLM &amp; Generative AI Integration</option>
+                <option value="Algorithmic Engineering">Algorithmic Software Engineering</option>
+                <option value="Job / Internship Opportunity">Hiring / Role Opportunity</option>
+                <option value="General Collaboration">General Inquiries &amp; Collaboration</option>
+              </select>
+            </div>
+
+            <!-- Message Input -->
+            <div class="form-group">
+              <label for="contactMessage" class="form-label">Message <span class="required-star">*</span></label>
+              <textarea id="contactMessage" name="message" class="cyber-input cyber-textarea" rows="4" placeholder="Describe your project, objectives, or questions..." required></textarea>
+              <span class="field-error-msg" id="messageError">Please enter a message (at least 10 characters).</span>
+            </div>
+
+            <!-- Submit Button with Spinner -->
+            <button type="submit" class="btn-submit-neon" id="btnSubmitForm">
+              <span class="btn-text">Send Message</span>
+              <span class="btn-spinner" aria-hidden="true"></span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="btn-icon">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand-side">
+          <a href="#home" class="brand-logo footer-logo">
+            <span class="logo-bracket">&lt;</span>
+            <span class="logo-name">Adham</span>
+            <span class="logo-dot">.ai</span>
+            <span class="logo-bracket">/&gt;</span>
+          </a>
+          <p class="footer-motto">
+            Engineering scalable AI systems, autonomous workflows, and high-performance algorithmic software.
+          </p>
+        </div>
+
+        <div class="footer-nav-side">
+          <div class="footer-col">
+            <span class="footer-col-title">Navigation</span>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <span class="footer-col-title">Connect</span>
+            <ul class="footer-links">
+              <li><a href="mailto:adhamabass2020@gmail.com">Email</a></li>
+              <li><a href="tel:+201149746364">Phone / WhatsApp</a></li>
+              <li><a href="https://github.com/adhamabass2020-oss" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <li><a href="https://www.linkedin.com/in/adham-ahmed-abbas-ai" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>s
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div class="copyright-text">
+          &copy; 2026 Adham Ahmed Abbas. Built with precision &amp; AI.
+        </div>
+        <div class="footer-meta-pill">
+          <span class="pulse-dot-mini"></span>
+          <span>Codespot Dark Tech Aesthetic</span>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- ==================== RESUME PREVIEW MODAL ==================== -->
+  <div class="modal-overlay" id="resumeModal" aria-hidden="true" role="dialog" aria-labelledby="resumeModalTitle">
+    <div class="modal-content glass-card">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <div class="modal-icon emerald">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+            </svg>
+          </div>
+          <div>
+            <h3 class="modal-title" id="resumeModalTitle">Adham Ahmed Abbas — Resume Snapshot</h3>
+            <span class="modal-subtitle">AI Automation Engineer &amp; Computer Science Specialist</span>
+          </div>
+        </div>
+        <button class="modal-close-btn" id="btnCloseResumeModal" aria-label="Close modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Resume Summary -->
+        <div class="resume-sheet">
+          <div class="resume-sheet-header">
+            <h4>Adham Ahmed Abbas</h4>
+            <p>Cairo, Egypt • adhamabass2020@gmail.com • +20 1149746364</p>
+          </div>
+
+          <div class="resume-sheet-section">
+            <h5>Executive Summary</h5>
+            <p>
+              AI Automation Engineer &amp; Computer Science Student with a 3.1 GPA from Beni-Suef University. Currently selected as an AI Automation Engineer Trainee in DEPI Round 5 (AMIT Learning). Experienced in designing autonomous workflow pipelines, orchestrating LLMs with APIs and databases, and algorithmic optimization.
+            </p>
+          </div>
+
+          <div class="resume-sheet-section">
+            <h5>Key Experience</h5>
+            <p><strong>Digital Egypt Pioneers Initiative (DEPI) – Round 5</strong> (July 2026 – Present)</p>
+            <p class="sub-line">AI Automation Engineer Trainee (AMIT Learning) — Cairo, Egypt</p>
+            <ul>
+              <li>Architecting multi-step autonomous workflows and webhook triggers.</li>
+              <li>Integrating LLMs and generative agents for operational automation.</li>
+            </ul>
+          </div>
+
+          <div class="resume-sheet-section">
+            <h5>Education</h5>
+            <p><strong>Bachelor of Computers and AI</strong> — Beni-Suef University (GPA: 3.1)</p>
+          </div>
+
+          <div class="resume-sheet-section">
+            <h5>Technical Stack</h5>
+            <p><strong>AI &amp; Automation:</strong> Workflow Automation, Prompt Engineering, ML/DL Foundations, n8n</p>
+            <p><strong>Software Engineering:</strong> Python, C++, OOP, Algorithms, Data Structures</p>
+            <p><strong>Data &amp; Systems:</strong> SQL, Relational Databases, Matplotlib, Git</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn-cyber-secondary" id="btnCopyResumeSummary">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="14" height="14" x="8" y="8" rx="2" ry="2"/>
+            <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>
+          </svg>
+          <span>Copy Summary</span>
+        </button>
+        <button class="btn-cyber-primary" id="btnPrintResume">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+            <rect width="12" height="8" x="6" y="14"></rect>
+          </svg>
+          <span>Print / Save PDF</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== TOAST NOTIFICATION ==================== -->
+  <div id="toastNotification" class="toast-box glass-card" role="alert" aria-live="assertive">
+    <div class="toast-icon-wrap" id="toastIcon">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00ff9d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="20 6 9 17 4 12"/>
+      </svg>
+    </div>
+    <span class="toast-message" id="toastMessage">Action completed successfully!</span>
+  </div>
+
+  <!-- JavaScript Engine -->
+  <script src="app.js"></script>
+</body>
+</html>
